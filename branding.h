@@ -25,9 +25,9 @@
  * dialog. Translated sentences that mention UrBackup are not affected.
  */
 #ifndef URBACKUP_APP_NAME
-#define URBACKUP_APP_NAME wxT("UrBackup")
+#define URBACKUP_APP_NAME wxT("Guardian Backup")
 #endif
 
 #ifndef URBACKUP_APP_NAME_CLIENT
-#define URBACKUP_APP_NAME_CLIENT wxT("UrBackup Client")
+#define URBACKUP_APP_NAME_CLIENT wxT("Guardian Backup Client")
 #endif

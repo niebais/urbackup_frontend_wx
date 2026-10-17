@@ -38,7 +38,7 @@ namespace
 		}
 		else if(str==wxT("wait_local"))
 		{
-			return _("Waiting for local UrBackup server.");
+			return _("Waiting for the local backup server.");
 		}
 		else if(str==wxT("connected_local"))
 		{
@@ -47,7 +47,7 @@ namespace
 			wxString last_seen;
 			last_seen << min_last_seen;
 
-			return _("Connected to local UrBackup server.")+wxT("\n")+_("Not trying to connect to Internet server.")+wxT("\n")+
+			return _("Connected to the local backup server.")+wxT("\n")+_("Not trying to connect to Internet server.")+wxT("\n")+
 					trans_1(_("Local server last seen _1_ minutes ago."), last_seen);
 		}
 		else if(str==wxT("no_server"))

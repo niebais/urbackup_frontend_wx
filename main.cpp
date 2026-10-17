@@ -816,11 +816,11 @@ void MyTimer::Notify()
 		if( atoi(n_version.c_str())>atoi(c_version.c_str()))
 		{
 #ifndef wxUSE_TASKBARICON_BALLOONS
-			TaskBarBaloon *tbb=new TaskBarBaloon(_("UrBackup: Update available"), _("A new version of UrBackup is available. Please click here to install it now."));
+			TaskBarBaloon *tbb=new TaskBarBaloon(_("Guardian Backup: Update available"), _("A new version of Guardian Backup is available. Please click here to install it now."));
 			tbb->showBaloon(80000);
 #else
 			tray->BalloonActionUpgrade();
-			tray->ShowBalloon(_("UrBackup: Update available"), _("A new version of UrBackup is available. Please click here to install it now."), 30000, wxICON_INFORMATION);
+			tray->ShowBalloon(_("Guardian Backup: Update available"), _("A new version of Guardian Backup is available. Please click here to install it now."), 30000, wxICON_INFORMATION);
 			displayed_update_info=true;
 #endif
 		}
@@ -928,11 +928,11 @@ void MyTimer::Notify()
 	if(!status.new_server.empty() && tray)
 	{
 #ifndef wxUSE_TASKBARICON_BALLOONS
-			TaskBarBaloon *tbb=new TaskBarBaloon(_("UrBackup: New server"), _("A new backup server has been found. Click here to use it"), status.new_server);
+			TaskBarBaloon *tbb=new TaskBarBaloon(_("Guardian Backup: New server"), _("A new backup server has been found. Click here to use it"), status.new_server);
 			tbb->showBaloon(180000);
 #else
 			tray->BalloonActionNewServer(status.new_server);
-			tray->ShowBalloon(_("UrBackup: New server"), _("A new backup server has been found. Click here to use it"), 180000, wxICON_INFORMATION);
+			tray->ShowBalloon(_("Guardian Backup: New server"), _("A new backup server has been found. Click here to use it"), 180000, wxICON_INFORMATION);
 #endif
 	}*/
 
@@ -955,7 +955,7 @@ void MyTimer::Notify()
 		}
 
 		wxMessageDialog* dialog = new wxMessageDialog(NULL,
-			ask_msg, _("UrBackup - Allow restore"), wxOK | wxCANCEL);
+			ask_msg, _("Guardian Backup - Allow restore"), wxOK | wxCANCEL);
 #if !defined(__WXMAC__) && !defined(__linux__)
 		dialog->RequestUserAttention();
 #endif
@@ -987,7 +987,7 @@ void MyTimer::Notify()
 		needs_restore_restart = status.needs_restore_restart;
 
 		wxMessageDialog* dialog = new wxMessageDialog(NULL,
-			_("Some files could not be deleted or overwritten during the restore process. In order to overwrite/delete the files the system needs to be restarted. Do you want to do this now?"), _("UrBackup - Restart Windows"), wxOK | wxCANCEL);
+			_("Some files could not be deleted or overwritten during the restore process. In order to overwrite/delete the files the system needs to be restarted. Do you want to do this now?"), _("Guardian Backup - Restart Windows"), wxOK | wxCANCEL);
 	#if !defined(__WXMAC__) && !defined(__linux__)
 		dialog->RequestUserAttention();
 	#endif

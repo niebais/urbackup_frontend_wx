@@ -1065,7 +1065,7 @@ GUIStatus::GUIStatus( wxWindow* parent, wxLongLong_t follow_only_process_id, wxW
 	}
 	else
 	{
-		this->SetTitle(_("UrBackup - File restore"));
+		this->SetTitle(_("Guardian Backup - File restore"));
 	}
 	
 	

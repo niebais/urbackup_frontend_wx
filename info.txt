@@ -1,4 +1,12 @@
-﻿Authors:
+﻿Guardian Backup Client
+Based on UrBackup (https://www.urbackup.org), Copyright (C) Martin Raiber and the UrBackup contributors.
+Modified by AI Vector in 2026 (new name, icons and status wording).
+The source code of this modified version is available at https://github.com/niebais/urbackup_frontend_wx
+This program is free software, licensed under the GNU Affero General Public License v3 or later; see license.txt.
+
+UrBackup credits:
+
+Authors:
 Phil Lucido
 Martin Raiber
 

@@ -284,7 +284,7 @@ void TrayIcon::OnPopupClick(wxCommandEvent &evt)
 #ifdef __APPLE__
 	case ID_TI_UNINSTALL:
 		{
-			int answer = wxMessageBox(_("Do you really want to remove the UrBackup client from this system?"),
+			int answer = wxMessageBox(_("Do you really want to remove Guardian Backup from this computer?"),
 							 _("Confirm uninstall"),
             					wxYES_NO | wxCANCEL);
 
