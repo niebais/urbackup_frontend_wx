@@ -1,0 +1,9 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="200" y1="0" x2="200" y2="400" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E54444"/><stop offset="1" stop-color="#CE2626"/></linearGradient></defs>
+<rect width="400" height="400" rx="60" fill="url(#g)"/>
+<path d="M346.2 196.4H298.2V240.8H346.2V196.4Z" fill="white"/>
+<path d="M290.3 265.5V214.2L267.4 196.4H191.8V240.8H195.9H241.1V265.4H151.2C144.4 265.4 140.9 262 140.9 255.1V145.5C140.9 138.7 144.3 135.2 151.2 135.2H241.1V108.5L218.2 90.7H149.2C110.9 90.7 91.7 109.9 91.7 148.2V252.4C91.7 290.7 110.9 309.9 149.2 309.9H267.9L290.4 292.5V265.5H290.3Z" fill="white"/>
+<path d="M290.2 143.3H241.2V188.5H290.2V143.3Z" fill="white"/>
+<circle cx="288" cy="288" r="134" fill="white"/><circle cx="288" cy="288" r="120" fill="#4B5563"/><g transform="translate(288 288) scale(1.2)"><path d="M-38 -38 L38 38 M38 -38 L-38 38" stroke="white" stroke-width="28" stroke-linecap="round"/></g>
+</svg>
